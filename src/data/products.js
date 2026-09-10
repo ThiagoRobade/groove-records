@@ -5,7 +5,7 @@ export const products = [
         artist: "Joy Division",
         price: 189.90,
         category: "Pós-Punk",
-        image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=500&q=80"
+        image: "/covers/joy-division.jpg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const products = [
         artist: "Rage Against the Machine",
         price: 199.90,
         category: "Rock",
-        image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&q=80"
+        image: "/covers/ratm.jpg"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const products = [
         artist: "Beastie Boys",
         price: 179.90,
         category: "Hip-Hop",
-        image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&q=80"
+        image: "/covers/beastie-boys.jpg"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ export const products = [
         artist: "Primus",
         price: 169.90,
         category: "Rock Alternativo",
-        image: "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=500&q=80"
+        image: "/covers/primus.jpg"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ export const products = [
         artist: "Richard Wagner",
         price: 249.90,
         category: "Clássica",
-        image: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=500&q=80"
+        image: "/covers/wagner.jpg"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const products = [
         artist: "Nirvana",
         price: 189.90,
         category: "Grunge",
-        image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=500&q=80"
+        image: "/covers/nirvana.jpg"
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ export const products = [
         artist: "The Chemical Brothers",
         price: 159.90,
         category: "Eletrônica",
-        image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80"
+        image: "/covers/chemical-brothers.jpg"
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ export const products = [
         artist: "The Prodigy",
         price: 179.90,
         category: "Eletrônica",
-        image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=500&q=80"
+        image: "/covers/prodigy.jpg"
     },
     {
         id: 9,
@@ -69,6 +69,6 @@ export const products = [
         artist: "Wolfgang Amadeus Mozart",
         price: 219.90,
         category: "Clássica",
-        image: "https://images.unsplash.com/photo-1520523839898-50712705494a?w=500&q=80"
+        image: "/covers/mozart.jpg"
     }
 ];
