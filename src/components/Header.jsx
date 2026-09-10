@@ -1,3 +1,4 @@
+import "./Header.css";
 export default function Header({ cartCount }) {
     return (
         <header className="header">
