@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./ProductCard.css";
 
-export default function ProductCard({ product, onAddToCart }) {
+export default function ProductCard({ product, onAddToCart, onRemoveFromCart }) {
     const [isFavorite, setIsFavorite] = useState(false);
 
     const toggleFavorite = () => {
@@ -27,9 +27,14 @@ export default function ProductCard({ product, onAddToCart }) {
                 <p className="product-artist">{product.artist}</p>
                 <p className="product-price">R$ {product.price.toFixed(2).replace(".", ",")}</p>
 
-                <button className="add-cart-btn" onClick={() => onAddToCart(product)}>
-                    Adicionar ao carrinho
-                </button>
+                <div className="card-actions">
+                    <button className="add-cart-btn" onClick={() => onAddToCart(product)}>
+                        Adicionar
+                    </button>
+                    <button className="remove-cart-btn" onClick={() => onRemoveFromCart(product)}>
+                        Remover
+                    </button>
+                </div>
             </div>
         </div>
     );

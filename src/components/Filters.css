@@ -1,0 +1,59 @@
+.filters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background-color: var(--bg-card);
+    color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.search-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.15);
+}
+
+.search-input::placeholder {
+    color: #6b7280;
+}
+
+.category-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip-btn {
+    background-color: var(--bg-card);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.chip-btn:hover {
+    border-color: #4b5563;
+    color: #ffffff;
+}
+
+.chip-btn.active {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #000000;
+    font-weight: 700;
+}
