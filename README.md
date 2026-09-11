@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🎵 Groove Records — Vitrine de Produtos em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web desenvolvida como atividade prática da disciplina de desenvolvimento front-end / React, simulando uma vitrine de e-commerce de discos de vinil e música.
 
-## Available Scripts
+🔗 **Repositório:** [https://github.com/ThiagoRobade/groove-records](https://github.com/ThiagoRobade/groove-records)
+🌐 **Deploy:** [GitHub Pages](https://thiagorobade.github.io/groove-records/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 👨‍🎓 Informações do Aluno
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Nome:** Thiago Robade
+- **Instituição:** Estácio
+- **Curso:** Engenharia de Software
+- **Período:** 8º Período
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Objetivo do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Colocar em prática conceitos fundamentais do ecossistema React:
+- Componentização e reutilização de código
+- Passagem e consumo de dados via `props`
+- Gerenciamento de estado com o hook `useState`
+- Estilização pura com CSS e responsividade (sem frameworks externos)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Funcionalidades e Requisitos Atendidos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Componentes
+- `Header`: Cabeçalho com o nome da loja, subtítulo e indicador do contador do carrinho de compras.
+- `ProductList`: Componente contêiner que itera sobre a lista de produtos e renderiza cada item.
+- `ProductCard`: Card individual reutilizável responsável por exibir os detalhes do produto e suas ações.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Props & Dados Dinâmicos
+- Todo o conteúdo de cada `ProductCard` (título, artista/descrição, preço, imagem) é recebido exclusivamente via `props`.
+- Catálogo estruturado em array de objetos com mais de 6 produtos cadastrados.
 
-### `npm run eject`
+### 3. Gerenciamento de Estado (`useState`)
+- **Carrinho de Compras:** Contador dinâmico no cabeçalho atualizado ao adicionar produtos.
+- **Favoritos:** Botão em cada card que alterna interativamente o estado de favoritado (mudança visual de ícone/cor).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. Estilização & CSS
+- CSS puro (sem bibliotecas como Bootstrap ou Tailwind).
+- Layout em grade responsiva (CSS Grid / Flexbox) adaptável a telas menores (smartphones e tablets).
+- Efeitos visuais de transição e `hover` nos cards e botões interativos.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tecnologias Utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/) *(ou Create React App)*
+- CSS3 Moderno (Flexbox / CSS Grid / Media Queries)
+- JavaScript (ES6+)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Como Rodar o Projeto Localmente
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/ThiagoRobade/groove-records.git
+   cd groove-records
+   npm install
+   npm start
+   ```

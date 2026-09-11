@@ -5,7 +5,7 @@ export const products = [
         artist: "Joy Division",
         price: 189.90,
         category: "Pós-Punk",
-        image: "/covers/joy-division.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/joy-division.jpg`
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const products = [
         artist: "Rage Against the Machine",
         price: 199.90,
         category: "Rock",
-        image: "/covers/ratm.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/ratm.jpg`
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const products = [
         artist: "Beastie Boys",
         price: 179.90,
         category: "Hip-Hop",
-        image: "/covers/beastie-boys.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/beastie-boys.jpg`
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ export const products = [
         artist: "Primus",
         price: 169.90,
         category: "Rock Alternativo",
-        image: "/covers/primus.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/primus.jpg`
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ export const products = [
         artist: "Richard Wagner",
         price: 249.90,
         category: "Clássica",
-        image: "/covers/wagner.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/wagner.jpg`
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const products = [
         artist: "Nirvana",
         price: 189.90,
         category: "Grunge",
-        image: "/covers/nirvana.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/nirvana.jpg`
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ export const products = [
         artist: "The Chemical Brothers",
         price: 159.90,
         category: "Eletrônica",
-        image: "/covers/chemical-brothers.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/chemical-brothers.jpg`
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ export const products = [
         artist: "The Prodigy",
         price: 179.90,
         category: "Eletrônica",
-        image: "/covers/prodigy.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/prodigy.jpg`
     },
     {
         id: 9,
@@ -69,6 +69,6 @@ export const products = [
         artist: "Wolfgang Amadeus Mozart",
         price: 219.90,
         category: "Clássica",
-        image: "/covers/mozart.jpg"
+        image: `${process.env.PUBLIC_URL}/covers/mozart.jpg`
     }
 ];
